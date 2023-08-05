@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!-- fonte 1 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <!-- fonte 2 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <!-- css externo -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="icon" type="image/png" href="./src/assets/favicon-qv.png">
+
+  <title>Que Viagem - Home</title>
+
+
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-warning">
+      <div class="container-fluid me-5">
+        <a class="navbar-brand" href="index.html"><img src="./src/assets/logosemfundo2.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><strong>HOME</strong> <img src="./src/assets/home.png" style="width: 20px; margin-bottom: .2em;" alt="icone home" > </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinos.html"><strong>DESTINOS</strong> <img src="./src/assets/destino.png" style="width: 25px;margin-bottom: .2em;" alt="icone destinos"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="promocoes.html"><strong>PROMOÇÕES</strong> <img src="./src/assets/promocao.png" style="width: 25px;margin-bottom: .2em;" alt="icone promocao"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html"><strong>CONTATO</strong> <img src="./src/assets/contato.png" style="width: 25px;margin-bottom: .2em;" alt="icone contato"></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="ex. Olinda" aria-label="Search">
+            <button class="btn btn-danger" type="submit">Pesquisar</button>
+            <a href="#" style="text-decoration: none; color: rgb(11, 49, 155); margin: 0.5em">Entrar</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- fim navbar  -->
+  </header>
+  <main>
+    <!-- carrossel -->
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./src/assets/carrossel000.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/assets/carrossel1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/assets/carrossel02.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- fim do carrossel -->
+    <!-- form ofertas -->
+    <section>
+      <form class="row gy-2 gx-3 align-items-center my-4 mx-5">
+        <h4 class="title-form"> <strong> Encontre as melhores ofertas</strong></h4>
+        <div class="col-md-2">
+          <label class="visually-hidden" for="autoSizingInput">Origem</label>
+          <label for="floatingInputGrid"> Local de origem</label>
+          <input type="text" class="form-control" id="autoSizingInput" placeholder="Cidade ou Aeroporto">
+        </div>
+        <form class="row gy-2 gx-3 align-items-center">
+          <div class="col-md-2">
+            <label class="visually-hidden" for="autoSizingInput">Destino</label>
+            <label for="floatingInputGrid"> Local de destino</label>
+            <input type="text" class="form-control" id="autoSizingInput" placeholder="Cidade ou Aeroporto">
+          </div>
+          <div class="col-md-2">
+            <label class="visually-hidden" for="autoSizingInput">Ida</label>
+            <label for="floatingInputGrid"> Data da ida</label>
+            <input type="date" class="form-control" id="autoSizingInput" placeholder="Local de destino">
+          </div>
+          <div class="col-md-2">
+            <label class="visually-hidden" for="autoSizingInput">Volta</label>
+            <label for="floatingInputGrid"> Data da volta</label>
+            <input type="date" class="form-control" id="autoSizingInput" placeholder="Local de destino">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-danger" style="margin-bottom:-1em ;">Buscar</button>
+          </div>
+        </form>
+    </section>
+    <!-- fim form ofertas -->
+    <!-- cards destinos procurados -->
+    <div style="border: 1px solid black;"> </div>
+    <section>
+      <!-- cards destinos -->
+
+      <div class="card-destino">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="main-title1"> CONHEÇA OS DESTINOS MAIS PROCURADOS <img src="./src/assets/estudante.svg" style="width: 200px; height: 200px; margin-bottom: 2em;">  </h2>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header"><strong> </strong></h5>
+              <img src="./src/assets/disney.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><strong>ORLANDO</strong> <img src="./src/assets/mickey-mouse.png"
+                    style="height: 20px; margin-bottom: .5em;"></h5>
+                <p class="card-text">Viva toda a magia e emoção únicas e inesquecíveis</p>
+                <a href="destinos.html" class="btn btn-dark">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header"><strong> </strong></h5>
+              <img src="./src/assets/noronhaa.png" class="card-img-top" alt="Foto Noronha">
+              <div class="card-body">
+                <h5 class="card-title"><strong>NORONHA</strong> <img src="./src/assets/praia.png"
+                    style="height: 28px; width: 28px; margin-bottom: .5em;"></h5>
+                <p class="card-text">Explore um paraíso tropical intocado e indescritível</p>
+                <a href="destinos.html" class="btn btn-dark">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header"><strong> </strong></h5>
+              <img src="./src/assets/./americasul.png" class="card-img-top" alt="Foto America do Sul">
+              <div class="card-body">
+                <h5 class="card-title"><strong> AMÉRICA DO SUL</strong> <img src="./src/assets/america-do-sul.png"
+                    style="height: 24px; margin-bottom: .5em;"></h5>
+                <p class="card-text"> Curta uma incrível e encantadora diversidade</p>
+                <a href="destinos.html" class="btn btn-dark">Saiba mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header"><strong> </strong></h5>
+              <img src="./src/assets/europa.png" class="card-img-top" alt=" Foto Europa">
+              <div class="card-body">
+                <h5 class="card-title"><strong>EUROPA</strong> <img src="./src/assets/marco.png"
+                    style="height: 24px; width: 25px;margin-bottom: .5em;"></h5>
+                <p class="card-text">Viaje através da história e cultura riquíssimas</p>
+                <a href="destinos.html" class="btn btn-dark">Saiba mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- cards nacionais -->
+    <section>
+      <div class="text-center p-1 my-5" style="background-color: rgba(14, 144, 14, 0.2);" >
+        <h2 class="main-title2" style="color: aliceblue;"> <strong> <img src="./src/assets/mapabrasil1.png" style="width: 50px;"> QUE OFERTAS NACIONAIS!</strong></h2>
+      </div>
+      <div class="card-destino" id="nacionais">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+            </div>
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-header" style="background-color: rgb(15, 14, 14);color: aliceblue;"><strong> 30% OFF
+                </strong></h5>
+              <img src="./src/assets/rio.png" class="card-img-top" alt="Card Rio">
+              <div class="card-body" id="card-body-nacional">
+                <h5 class="card-title"><strong>RIO DE JANEIRO</strong>
+                  <p class="card-text">5 dias incluindo:</p>
+                  <p> Aéreo + Hospedagem + Pensão completa + Passeio + </p>
+                  <a href="#" class="btn btn-outline-dark">Aproveitar oferta</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-header" style="background-color: rgb(15, 14, 14);color: aliceblue;"><strong> 15% OFF
+                </strong></h5>
+              <img src="./src/assets/gramado.png" class="card-img-top" alt="Card Gramado">
+              <div class="card-body"  id="card-body-nacional">
+                <h5 class="card-title"><strong>GRAMADO</strong>
+                  <p class="card-text">5 dias incluindo: </p>
+                  <p>Áereo + Hospedagem + Café da manhã + Translado + Ingresso </p>
+                  <a href="#" class="btn btn-outline-dark">Aproveitar oferta</a>
+              </div>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-header" style="background-color: rgb(15, 14, 14);color: aliceblue;"><strong> 25% OFF
+                </strong></h5>
+              <img src="./src/assets/./fortaleza.png" class="card-img-top" alt="Card Fortaleza">
+              <div class="card-body" id="card-body-nacional">
+                <h5 class="card-title"><strong> FORTALEZA</strong>
+                  <p class="card-text">4 dias incluindo: </p>
+                  <p>Aéreo + Hospedagem + Café da manhã + Passeio + Ingressos</p>
+                  <a href="#" class="btn btn-outline-dark">Aproveitar oferta</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section>
+
+    <!-- cards destaque mes -->
+    <section>
+
+      <div class="card-destino" id="destaquemes">
+        <div class="container">
+          <div class="row destaques">
+            <div class="col-12">
+              <h2 class="main-title3"> DESTAQUE DO MÊS: <u> PERNAMBUCO</u> <img src="./src/assets/pernambuco.png"
+                  style="width: 130px;"> </h2>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header" id="header-destacado" style="text-align: center;"><strong> OLINDA </strong></h5>
+              <img src="./src/assets/olinda.png" class="card-img-top" alt="Foto de Olinda">
+              <div class="card-body" id="destaque">
+                <p class="card-text">Encante-se com a atmosfera colonial e as coloridas ladeiras de Olinda, uma cidade
+                  histórica repleta de cultura, arte e festividades brasileiras.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header" id="header-destacado1" style="text-align: center;"><strong> PORTO DE GALINHAS </strong></h5>
+              <img src="./src/assets/portodegalinhas.jpeg" class="card-img-top" alt="Foto Porto de Galinhas">
+              <div class="card-body" id="destaque">
+                <p class="card-text">Relaxe em praias paradisíacas e águas cristalinas de Porto de Galinhas, um destino
+                  deslumbrante que combina tranquilidade, diversão e mergulhos inesquecíveis.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header" id="header-destacado" style="text-align: center;"><strong> CATIMBAU </strong></h5>
+              <img src="./src/assets/catimbau.png" class="card-img-top" alt="Foto Catimbau">
+              <div class="card-body" id="destaque">
+                <p class="card-text"> Explore o incrível cenário do Parque Nacional do Catimbau, onde formações rochosas
+                  únicas e paisagens exuberantes nos convidam a descobrir a beleza selvagem do sertão.</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <h5 class="card-header" id="header-destacado" style="text-align: center;"><strong> RECIFE </strong></h5>
+              <img src="./src/assets/recifee.png" class="card-img-top" alt=" Foto Europa">
+              <div class="card-body" id="destaque">
+                <p class="card-text">Viva a energia vibrante de Recife, a capital do frevo e do maracatu, onde a
+                  modernidade se funde com a rica herança cultural do nordeste brasileiro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- redes sociais -->
+    <section>
+      <div class="text-center p-2 my-4" style="background-color: rgba(182, 115, 7, 0.2);"><img class="img-rede-social" src="./src/assets/redesocial.png"> <strong> Junte-se à QUE VIAGEM nas redes sociais</strong> <br> <img class="img-rede-social" src="./src/assets/instagram.png">  <img class="img-rede-social" src="./src/assets/facebook.png" >  <img class="img-rede-social" src="./src/assets/twitter.png" style="width: 40px;"> <img class="img-rede-social" src="./src/assets/threads.png"></div>
+    </section>
+
+    <!-- newsletter -->
+    <div class="row d-flex justify-content-center align-items-center rows">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="text-center">
+            <img src="./src/assets/nest.png" width="200">
+            <span class="d-block mb-5">Que ficar por dentro de todas as novidades e promoções?<br> Inscreva-se e receba
+              tudo em primeira mão!</span>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Digite seu e-mail" aria-label="Search">
+                <button class="btn btn-danger" type="submit">Enviar</button>
+              </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </main>
+
+  <footer class="mt-5">
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); ;">
+      2023 © Desenvolvido por Emily Cavalcanti | Recode Pro 2023
+      <p float-right> <a href="#"> Voltar ao topo</a>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>

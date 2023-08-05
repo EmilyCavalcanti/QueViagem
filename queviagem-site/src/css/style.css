@@ -1,0 +1,151 @@
+body{
+
+    background-image:linear-gradient( 109deg, transparent, #f8a436 23.57%, #b4a49a 41%, #fbb54a 45%, transparent 100% );
+   font-family: "Manrope", sans-serif;
+}
+
+/* navbar */
+.nav-link{
+    font-family: "Permanent Marker", sans-serif;
+    color: whitesmoke;
+    margin-left: 1.7em ;
+
+}
+
+/* form */
+.title-form{
+   text-align: center;
+   color: antiquewhite;
+   font-size: 26px;
+}
+.row{
+    font-weight: bolder;
+    justify-content: center;
+    
+}
+
+/* cards-destino */
+.main-title1{
+    font-family: "Lilita One", sans-serif;
+    font-size: 36px;
+    text-align: center;
+ 
+}
+
+.card{
+    border:none;
+    background: none;
+    margin-left: 1em;
+    
+    
+}
+
+.card-body{
+    background-color: #e2e43e;
+    border-radius: 0 0 6px 6px;
+    
+}
+
+.btn{
+    background-color:rgba(91, 91, 76, 0.726) ;
+    border: 3px solid transparent;
+    transition: .5s;
+    bottom: 10em;
+    text-decoration: none;
+    box-shadow: none !important;
+} 
+
+.main-title2{
+    font-family: "Lilita One", sans-serif;
+    font-size: 29px;
+    text-align: center;
+    letter-spacing: .9em;
+    
+
+}
+
+/* cards nacionais */
+#nacionais{
+
+    background-image: url(../assets/listras.png);
+    background-repeat: no-repeat;
+
+  background-position: center;
+    margin-top: 4em;
+    padding-bottom: .8em;
+
+    border-radius: 10px;
+   
+}
+
+#card-body-nacional{
+    background-color: antiquewhite;
+    padding: 0 2em;
+}
+
+
+/* card mes destaque */
+#destaquemes{
+    background-color: #a2cec9;
+    margin-top: 4em;
+    padding-bottom: 2em;
+    margin:  8em 4em;
+    border: 1px groove black;
+    border-radius: 10px;
+    -webkit-box-shadow: -35px 32px 14px rgba(29, 140, 231, 0.45);
+		-moz-box-shadow:    -35px 32px 14px rgba(29, 140, 231, 0.45);
+		box-shadow:         -35px 32px 14px rgba(29, 140, 231, 0.45);	
+}
+
+#destaque{
+
+    border-radius: 0 0 6px 6px;
+    color: #ffe8d9;
+    box-shadow: 0px 0px 24px 5px #0271f7;
+    background-color: #08448d;
+
+}
+.card-destaque{
+    border:none;
+    background: none;
+    margin-left: 1em;
+    
+}
+#header-destacado{
+    font-family: "Permanent Marker", sans-serif;
+    letter-spacing: .3em;
+}
+#header-destacado1{
+    font-family: "Permanent Marker", sans-serif;
+    letter-spacing: .061em;
+}
+.main-title3{
+    font-family: "Lilita One", sans-serif;
+    font-size: 29px;
+    text-align: center;
+    
+    
+
+}
+
+body{
+
+    background-color: #F9A826;
+}
+
+/* redes sociais */
+
+.img-rede-social{
+    width: 40px; 
+    margin: .5em 0 .5em 1em;
+}
+
+
+/* newsletter */
+.rows{
+
+    height: 45vh;
+
+}
+
+
